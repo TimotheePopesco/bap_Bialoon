@@ -16,7 +16,6 @@ h3{
 p{
     font-size: 16px;
     font-weight: normal;
-    text-align: justify;
 }
 
 /* Header */
@@ -44,8 +43,8 @@ header{
 }
 .seheader3{
     width: 25%;
-    text-align: center;
-    padding-right: 5%;
+    text-align: right;
+    padding-right: 10%;
     padding-top: 5vh;
 }
 .menuheader{
@@ -400,4 +399,295 @@ footer h4{
 
 .blog-header{
     border-bottom: 1vh solid  #FDCB5D;
+}
+.se-init{
+    min-height: 10vh;
+}
+.blog-social-media-bottom{
+    display: flex;
+    padding-left: 35%;
+    text-align: center; 
+    background-color: #F9F9F9;  
+    padding-top: 15vh;
+}
+.blog-social-media-bottom div{
+    width: 10%;
+    margin : 1vh 3%;
+
+}
+/* BLOG SECTION 1 - PRESENTATION */
+.blog-se1{
+    padding-top: 15vh;
+    min-height: 40vh;
+    background-image: url("../images/blog/blo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #F9F9F9;
+    padding-bottom: 5vh;
+}
+.blog-se1-text{
+    margin-left: 10%;
+    max-width: 50%;
+}
+.blog-se1-text p{
+    margin-top: 5vh;
+    font-size: 20px;
+}
+
+.blog-se1-input{
+    border: 2px solid black;
+    background-color: white; 
+    width: 30%;
+    border-radius: 40px;
+    padding: 2vh 2%;
+    margin-left: 35%;
+    margin-top: 15vh;
+}
+.blog-se1-input input {
+    border: none;
+    text-align: left;
+    width: 80%;
+}
+.blog-se1-input input::placeholder {
+    font-size: 20px;
+}
+.blog-se1-input img{
+    float: right;
+}
+
+
+/* BLOG SECTION 2 - Start articles */
+.blog-se2{
+    background-color: #F9F9F9;
+}
+.blog-se2-content{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+}
+.blog-se2-navigation{
+    display: flex;
+    text-align: center;
+}
+.blog-se2-navigation div{
+    width: 20%;
+    padding: 3vh 0;
+    border-bottom: 0.5vh solid lightgrey;
+}
+.blog-se2-navigation .blog-se2-clicknavigation{
+    width: 20%;
+    padding: 3vh 0;
+    border-bottom: 0.5vh solid #FDCB5D;
+}
+.blog-se2-navigation a{
+    color: #1079C8;
+    font-size: 16px;
+    text-decoration: none;
+}
+.blog-se2-navigation .blog-se2-clicknavigation a{
+    color: #FDCB5D;
+    font-size: 16px;
+    text-decoration: none;
+}
+.blog-se2-articlesline{
+    display: flex;
+    text-align: center;
+}
+.blog-se2-article{
+    width: 25%;
+    padding: 5vh 4%;
+    
+}
+.blog-se2-article a{
+    color: black;
+    text-decoration: none;
+}
+.blog-se2-article p{
+    text-align: center;
+}
+
+/* SECTION 3 - DONATION PROPOSAL */
+.blog-se3{
+    padding-top: 6vh;
+    height: 30vh;
+    background-image: url("../images/blog/handmoneypng.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E6EFF6;
+    padding-bottom: 5vh;
+    color: #1079C8;
+    text-align: center;
+}
+.blog-se3 p{
+    padding: 2vh 0;
+}
+.blog-se3-button{
+    margin-top: 7vh;
+}
+.blog-se3-button a {
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #84BE96;
+    color : #84BE96;
+    text-decoration: none;
+    padding: 2vh 3%;
+    border-radius: 40px;
+}
+.blog-se3-button a:hover{
+    background-color: #84BE96;
+    color: white;
+}
+
+/* SECTION 4 - END ARTICLES */
+.blog-se4{
+    background-color: #F9F9F9;
+}
+.blog-se4-content{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+}
+.blog-se4-onload{
+    text-align: center;
+    padding: 10vh 0;
+}
+
+
+/* TESTIMONIES.HTML similar to blog page */
+.testimonies-se1{
+    padding-top: 15vh;
+    min-height: 40vh;
+    background-image: url("../images/articleTemoignage/bgtestimonies.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #F9F9F9;
+    padding-bottom: 5vh;
+}
+.testimonies-se1-text{
+    margin-left: 10%;
+    max-width: 50%;
+}
+.testimonies-se1-text p{
+    margin-top: 5vh;
+    font-size: 20px;
+}
+
+.testimonies-se1-input{
+    border: 2px solid black;
+    background-color: white; 
+    width: 30%;
+    border-radius: 40px;
+    padding: 2vh 2%;
+    margin-left: 35%;
+    margin-top: 15vh;
+}
+.testimonies-se1-input input {
+    border: none;
+    text-align: left;
+    width: 80%;
+}
+.testimonies-se1-input input::placeholder {
+    font-size: 20px;
+}
+.testimonies-se1-input img{
+    float: right;
+}
+
+/* ARTICLE.HTML */
+/* CHANGE */
+
+/* SECTION 1 - PRESENTATION ARTICLE */
+.article-se1{
+    padding-top: 15vh;
+}
+.article-se1-content{
+    width: 80%;
+    margin-left: 10%;
+}
+.article-se1-title{
+    display: flex;
+}
+.article-se1-title span{
+    padding: 0 2%;
+}
+.article-se1-span{
+    text-align: right;
+}
+.article-se1-title div {
+    width: 50%;
+}
+.article-se1-buttons {
+    display: flex;
+    padding-top: 5vh;
+}
+.article-se1-buttons div{
+    margin-right: 4%;
+}
+.article-se1-buttons a{
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #1079C8;
+    color : #1079C8;
+    text-decoration: none;
+    padding: 2vh 15%;
+    border-radius: 40px;
+}
+.article-se1-buttons a:hover{
+    background-color: #1079C8;
+    color: white;
+}
+.article-se1-text{
+    padding-top: 5vh;
+}
+
+/* SECTION 2 - START ARTICLE */
+.article-se2{
+    padding-top: 15vh;
+}
+.article-se2-content{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+.article-se2-img{
+    width: 30%;
+}
+.article-se2-par p  {
+    text-align: justify;
+    padding-top: 3vh;
+}
+.article-se2-par{
+    width :70%;
+    padding-left: 5%;
+}
+.article-se2-par2 h3{
+    padding-top: 10vh;
+}
+
+/* SECTION 3 - PARAGRAPH CITATION */
+.article-se3{
+    padding-top: 2vh;
+}
+.article-se3-content{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+.article-se3-citation{
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.article-se3-citation p {
+    color: #FDCB5D;
+    font-weight: normal;
+    font-size: 32px;
+    padding-top: 5vh;
+}
+.article-se3-par{
+    width: 100%;
+    text-align: justify;
+}
+.article-se3-par p{
+    padding-top: 1vh;
 }
