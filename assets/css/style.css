@@ -1,16 +1,33 @@
+/* GENERAL */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+h3{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
 }
 
 /* Header */
 
 header{
     display: flex;
-    min-height: 5vh;
+    min-height: 12vh;
     border-bottom: 1vh solid #E6EFF6;
     background-color: #FFFEFE;
+    position: fixed;
+    width: 100%;
 }
 .seheader1{
     width: 25%;
@@ -118,11 +135,11 @@ footer h4{
 
 /* SE1 */
 .se1{
+    padding-top: 15vh;
     height: 85vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/accueil/image-pageaccueil-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: #ffffff;
     color: white;
 }
 .se1-content{
@@ -168,4 +185,219 @@ footer h4{
 .se1-button2:hover{
     background-color: #84BE96;
     color: white;
+}
+
+
+/* SECTION 2 */
+.se2{
+    min-height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/accueil/image-pageaccueil-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    
+}
+.se2-content {
+    width: 50%;
+    padding: 10vh 5% 0 10%;
+}
+.se2-button{
+    margin-top: 10vh;
+}
+
+.se2-content a {
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #FDCB5D;
+    color : #FDCB5D;
+    text-decoration: none;
+    padding: 2vh 5%;
+    border-radius: 40px;
+}
+.se2-content li{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 2vh;
+}
+.se2-content span{
+    font-weight: bold;
+    margin-right: 5%;
+    font-size: 26px;
+}
+
+.se2-content-span1 {
+    color: #FDCB5D;
+}
+.se2-content-span2 {
+    color: #84BE96;
+}
+.se2-content-span3 {
+    color: #1079C8;
+}
+
+.se2-content a:hover{
+    background-color: #FDCB5D;
+    color: white;
+}
+.se2-map{
+    width: 50%;
+    padding: 15vh 10% 0 5%;
+}
+
+
+/* SECTION 3 */
+.se3{
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/accueil/image-pageaccueil-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+/* SECTION 4 */
+.se4{
+    min-height: 75vh;
+    color: black;
+}
+
+.se4-content{
+    padding: 5vh 10%;
+}
+.se4-articles{
+    display: flex;
+    width: 100%;
+    margin-top: 7vh;
+}
+.se4-articles div{
+    width: 20%;
+}
+.se4-articles p{
+    max-width: 70%;
+    text-align: center;
+    font-size: 16px;
+}
+.se4-button{
+    margin-top: 12vh;
+}
+.se4-button a{
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #FDCB5D;
+    color : #FDCB5D;
+    text-decoration: none;
+    padding: 2vh 3%;
+    border-radius: 40px;
+}
+.se4-button a:hover{
+    background-color: #FDCB5D;
+    color: white;
+}
+
+
+/* SECTION 5 */
+.se5{
+    min-height: 85vh;
+    color: black;
+    background-color: #E6EFF6;
+}
+
+.se5-content{
+    padding: 10vh 10%;
+}
+.se5-articles{
+    display: flex;
+    width: 100%;
+    margin-top: 7vh;
+}
+.se5-articles div{
+    width: 20%;
+}
+.se5-articles p{
+    max-width: 70%;
+    text-align: center;
+    font-size: 16px;
+}
+.se5-button{
+    margin-top: 12vh;
+}
+.se5-button a{
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #FDCB5D;
+    color : #FDCB5D;
+    text-decoration: none;
+    padding: 2vh 3%;
+    border-radius: 40px;
+}
+.se5-button a:hover{
+    background-color: #FDCB5D;
+    color: white;
+}
+
+.se5-testimonies{
+    display: flex;
+    margin-top: 5vh;
+}
+.se5-testimonies-images{
+    max-width:20%;
+    margin-right: 5%;
+}
+.se5-testimonies-text{
+    max-width: 65%;
+}
+.se5-testimonies-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.se5-testimonies-citation{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 4vh 0;
+}
+.se5-separate{
+    display: flex;
+    margin: 5vh 0;
+}
+.se5-line{
+    width: 30%;
+    padding-top: 2vh;
+}
+.se5-interline{
+    width: 10%;
+}
+.se5-interline p{
+    text-align: center;
+}
+
+/* CALENDAR - SECTION 6 */
+.se6{
+    min-height: 85vh;
+    color: black;
+}
+
+.se6-content{
+    padding: 10vh 10% 0 10%;
+    min-height: 25vh;
+}
+.se6-infos{
+    min-height: 60vh;
+}
+.social-media-bottom{
+    display: flex;
+    padding-left: 35%;
+    text-align: center;   
+}
+.social-media-bottom div{
+    width: 10%;
+    margin : 1vh 3%;
+
+}
+
+
+/* BLOG.HTML */
+
+.blog-header{
+    border-bottom: 1vh solid  #FDCB5D;
 }
